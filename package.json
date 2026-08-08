@@ -1,0 +1,20 @@
+{
+  "name": "student-management",
+  "version": "1.0.0",
+  "description": "Student Management System using TypeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "ts-node src/app.ts"
+  },
+  "author": "Ali",
+  "license": "ISC",
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
